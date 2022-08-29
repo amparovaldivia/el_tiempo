@@ -1,0 +1,180 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.barra {
+    background-color: cornflowerblue;
+    height: 50px;
+    display: flex;
+}
+
+h1 {
+    font-family: cursive;
+    color: white;
+    font-size: 30px;
+    margin-left: 10%;
+    width: 30%;
+}
+
+.titulo {
+    color: white;
+    font-size: medium;
+    list-style: none;
+    display: flex;
+    font-family: monospace;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+}
+
+.pantalla {
+    width: 80%;
+    margin-left: 10%;
+    height: 400px;
+}
+
+#pantalla_titulo {
+    border-bottom-style: solid;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: black;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+p {
+    color: black;
+    font-size: small;
+    font-family: monospace;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#bloque {
+    display: flex;
+    flex-direction: column;
+}
+
+#columnas {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 335px;
+}
+
+.primera_lista {
+    background-color: gainsboro;
+    list-style: none;
+    width: 23.2%;
+    margin-right: 0.8%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.dia {
+    color: black;
+    font-family: cursive;
+    font-size: larger;
+    margin-top: 5px;
+}
+
+.imagen {
+    width: 100%;
+    height: 22%;
+    margin-top: 65px;
+    text-align: center;
+}
+
+.tiempo {
+    font-size: small;
+    font-family: cursive;
+    margin-top: 43px;
+}
+
+.ima {
+    height: 100%;
+    border-radius: 50%;
+}
+
+.segunda_lista {
+    background-color: gainsboro;
+    list-style: none;
+    width: 23.2%;
+    margin-right: 0.8%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.tercera_lista {
+    background-color: gainsboro;
+    width: 23.2%;
+    list-style: none;
+    margin-right: 0.8%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.cuarta_lista {
+    background-color: gainsboro;
+    width: 23.2%;
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.temperatura {
+    margin-top: 48px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0%;
+    width: 80%;
+}
+
+.numero_rojo {
+    color: red;
+}
+
+.t {
+    color: blue;
+}
+
+h3 {
+    color: black;
+    font-weight: bold;
+    margin-left: 27%;
+    font-size: 20px;
+}
+
+.ultimo_parrafo {
+    color: black;
+    margin-bottom: 6px;
+}
+
+#click {
+    background-color: mediumblue;
+    box-shadow: 2px 2px black;
+    height: 30px;
+}
+
+.final_pagina {
+    position: fixed;
+    border-style: solid;
+    border-width: 2px;
+    width: 76%;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+
+#i {
+    display: flex;
+    justify-content: space-around;
+}

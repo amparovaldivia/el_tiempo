@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="dojo_weather_css.css">
+</head>
+
+<body>
+    <header class="barra">
+        <h1>Dojo weather</h1>
+        <ul class="titulo">
+            <li onclick="seleccionar_ciudad(this)">Burbank</li>
+            <li onclick="seleccionar_ciudad(this)">Chicago</li>
+            <li onclick="seleccionar_ciudad(this)">Dallas</li>
+        </ul>
+    </header>
+    <section class="pantalla">
+        <div id="pantalla_titulo">
+            <h2>San Jose</h2>
+            <p>Show temperature in
+                <select onchange="cambiar_temperatura(this)">
+                    <option>C&ordm;</option>
+                    <option>F&ordm;</option>
+                </select>
+            </p>
+        </div>
+        <div id="bloque">
+            <div id="columnas">
+                <ul class="primera_lista">
+                    <li class="dia">Today</li>
+                    <li class="imagen"><img class="ima" src="some_rain.png" alt="imagen_tiempo"></li>
+                    <li class="tiempo">some rain</li>
+                    <li class="temperatura"><span class="numero_rojo numero_temperatura">24&ordm;</span> <span
+                            class="t numero_temperatura">18&ordm;</span></li>
+                </ul>
+                <ul class="segunda_lista">
+                    <li class="dia">Tomorrow</li>
+                    <li class="imagen"><img class="ima" src="some_sun.png" alt="imagen_tiempo"></li>
+                    <li class="tiempo">some sun</li>
+                    <li class="temperatura"><span class="numero_rojo numero_temperatura">27&ordm;</span> <span
+                            class="t numero_temperatura">19&ordm;</span></li>
+                </ul>
+                <ul class="tercera_lista">
+                    <li class="dia">Friday</li>
+                    <li class="imagen"><img class="ima" src="some_clouds.png" alt="imagen_tiempo"></li>
+                    <li class="tiempo">some clouds</li>
+                    <li class="temperatura"><span class="numero_rojo numero_temperatura">21&ordm;</span> <span
+                            class="t numero_temperatura">16&ordm;</span></li>
+                </ul>
+                <ul class="cuarta_lista">
+                    <li class="dia">Saturday</li>
+                    <li class="imagen"><img class="ima" src="some_sun.png" alt="imagen_tiempo"></li>
+                    <li class="tiempo">some sun</li>
+                    <li class="temperatura"><span class="numero_rojo numero_temperatura">26&ordm;</span> <span
+                            class="t numero_temperatura">21&ordm;</span></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <div id="footer" class="final_pagina">
+        <h3>Stop Cookie Time</h3>
+        <div id="i"> <img src="cookie.png" alt="imagen_galleta">
+            <p class="ultimo_parrafo"> We use cookies(Sadly not the edible ones)
+                to personalize<br> Content and ads, to provide social media
+                features and to,<br> Analyse our traffic.<a href="#">Read more...</a>
+            </p>
+            <button id="click" onclick="cerrar_cookies()">I accept</button>
+        </div>
+    </div>
+</body>
+<script src="dojo_weather_js.js"></script>
+
+</html>
